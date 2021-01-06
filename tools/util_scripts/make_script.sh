@@ -3,4 +3,4 @@ mkdir $1 &> /dev/null
 cd $1
 mkdir $2 &> /dev/null
 cd ..
-cp ./tools/script.sh $1/$2/
+cp ./tools/util_scripts/script.sh $1/$2/

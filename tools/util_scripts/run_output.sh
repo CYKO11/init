@@ -9,7 +9,7 @@ echo " "
 
 tput rmul
 tput setaf 2
-$1
+cat $1
 
 tput setaf 6
 echo " "
@@ -18,4 +18,3 @@ echo "<<< $1 >>>"
 tput rmul
 tput sgr0
 ./tools/print_scripts/space.sh
-

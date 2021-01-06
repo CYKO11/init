@@ -6,13 +6,12 @@ then
         ./tools/init.sh
         read -p "Press enter to continue"
     fi
-    if [ $1 == "rpi" ]
+    if [ $1 == "ssh" ]
     then
-        ./tools/ssh_scripts/ssh_deploy.sh
+        ./tools/ssh_scripts/ssh_deploy.sh $2 $3
     fi
 else
     tput setaf 1
-    # tput smul
     tput bold
     echo " "
     echo "error : no argument specified"

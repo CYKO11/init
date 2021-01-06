@@ -1,0 +1,3 @@
+#!/bin/bash
+# this will not work in wsl as wsl does not have routing tables
+ip -j route show | jq -r '.[] | select(.dst=="default") | .gateway'

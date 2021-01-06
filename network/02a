@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hi"
+hostname -I

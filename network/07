@@ -1,0 +1,6 @@
+#!/bin/bash
+# both commands do the same thing
+# using host because nslookup is not available on the rasberry pi zero
+
+host -t ns -a slash16.org
+# nslookup --dns-ip=8.8.8.8 superuser.com

@@ -6,6 +6,9 @@ tput smul
 echo "<<< $1 >>>"
 tput rmul
 echo " "
+cat $1
+echo " "
+echo " "
 
 tput rmul
 tput setaf 2

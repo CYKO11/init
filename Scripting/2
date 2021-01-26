@@ -1,0 +1,4 @@
+#!/bin/bash
+$VICTIM=dummy
+sudo kill `pgrep -u $VICTIM`
+sudo deluser $VICTIM

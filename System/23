@@ -1,0 +1,8 @@
+# Explain how connect yourself as new user. (With graphic session and ssh session)
+ssh:
+Add new ssh key to ~/.ssh/rsa_id
+$> ssh <username>@<ip_of_vm>
+
+graphic:
+connect as a graphical session user
+$> su - <username>
